@@ -1,0 +1,10 @@
+Main
+1. App displays collection of buttons
+2. Each button has corrseponding image and sound
+3. Tap on button and sound is played
+4. While sound is playing, if a new button is pressed the previous sound is stopped
+5. Button animates when pressed
+6. user can record new sound
+7. user can assign image to new button
+8. Animate image throughout audio playing
+9. View sounds on apple watch
