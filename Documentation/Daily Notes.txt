@@ -1,0 +1,6 @@
+Nov 14th, 2018
+
+Have working watch and phone playing capabilities
+
+watch plays and resumes when app is re-opened
+
