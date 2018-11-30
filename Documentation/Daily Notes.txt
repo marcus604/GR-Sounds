@@ -4,3 +4,8 @@ Have working watch and phone playing capabilities
 
 watch plays and resumes when app is re-opened
 
+8 different sounds for watch os
+
+cuts off beginning of sound
+
+ITS A BUG

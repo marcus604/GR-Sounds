@@ -8,3 +8,4 @@ Main
 7. user can assign image to new button
 8. Animate image throughout audio playing
 9. View sounds on apple watch
+10. group sounds
