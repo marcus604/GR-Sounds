@@ -19,7 +19,7 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet weak var audioPlay: WKInterfaceInlineMovie!
     
     @IBAction func buttonPress() {
-       playSound(withName: "horn")
+        playSound(withName: "horn")
     }
     
     @IBAction func priceIsSadPress() {
