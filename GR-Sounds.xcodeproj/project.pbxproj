@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1F59AB21C1A7E400402B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F59AA21C1A7E400402B60 /* AppDelegate.swift */; };
+		2C1F59AD21C1A7E400402B60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F59AC21C1A7E400402B60 /* ViewController.swift */; };
+		2C1F59B021C1A7E400402B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1F59AE21C1A7E400402B60 /* Main.storyboard */; };
+		2C1F59B321C1A7E400402B60 /* GR_Sounds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F59B121C1A7E400402B60 /* GR_Sounds.xcdatamodeld */; };
+		2C1F59B521C1A7E400402B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1F59B421C1A7E400402B60 /* Assets.xcassets */; };
+		2C1F59B821C1A7E400402B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1F59B621C1A7E400402B60 /* LaunchScreen.storyboard */; };
+		2C1F59C321C1A7E500402B60 /* GR_SoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F59C221C1A7E500402B60 /* GR_SoundsTests.swift */; };
+		2CD0429E21C1B2D100DADBF2 /* GRSoundRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0429D21C1B2D100DADBF2 /* GRSoundRowController.swift */; };
+		2CDBA95521C1A84200BB8559 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDBA95321C1A84200BB8559 /* Interface.storyboard */; };
+		2CDBA95721C1A84200BB8559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDBA95621C1A84200BB8559 /* Assets.xcassets */; };
+		2CDBA95E21C1A84200BB8559 /* GR-Sounds-Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2CDBA95D21C1A84200BB8559 /* GR-Sounds-Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2CDBA96321C1A84200BB8559 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDBA96221C1A84200BB8559 /* InterfaceController.swift */; };
+		2CDBA96521C1A84200BB8559 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDBA96421C1A84200BB8559 /* ExtensionDelegate.swift */; };
+		2CDBA96721C1A84200BB8559 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDBA96621C1A84200BB8559 /* ComplicationController.swift */; };
+		2CDBA96921C1A84300BB8559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDBA96821C1A84300BB8559 /* Assets.xcassets */; };
+		2CDBA96D21C1A84300BB8559 /* GR-Sounds-Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2CDBA95121C1A84200BB8559 /* GR-Sounds-Watch.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C1F59BF21C1A7E500402B60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C1F599F21C1A7E400402B60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1F59A621C1A7E400402B60;
+			remoteInfo = "GR-Sounds";
+		};
+		2CDBA95F21C1A84200BB8559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C1F599F21C1A7E400402B60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CDBA95C21C1A84200BB8559;
+			remoteInfo = "GR-Sounds-Watch Extension";
+		};
+		2CDBA96B21C1A84300BB8559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C1F599F21C1A7E400402B60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CDBA95021C1A84200BB8559;
+			remoteInfo = "GR-Sounds-Watch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CDBA97321C1A84300BB8559 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2CDBA95E21C1A84200BB8559 /* GR-Sounds-Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDBA97521C1A84300BB8559 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2CDBA96D21C1A84300BB8559 /* GR-Sounds-Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C1F59A721C1A7E400402B60 /* GR-Sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GR-Sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1F59AA21C1A7E400402B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C1F59AC21C1A7E400402B60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C1F59AF21C1A7E400402B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C1F59B221C1A7E400402B60 /* GR_Sounds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GR_Sounds.xcdatamodel; sourceTree = "<group>"; };
+		2C1F59B421C1A7E400402B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C1F59B721C1A7E400402B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C1F59B921C1A7E500402B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1F59BE21C1A7E500402B60 /* GR-SoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GR-SoundsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1F59C221C1A7E500402B60 /* GR_SoundsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GR_SoundsTests.swift; sourceTree = "<group>"; };
+		2C1F59C421C1A7E500402B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD0429D21C1B2D100DADBF2 /* GRSoundRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRSoundRowController.swift; sourceTree = "<group>"; };
+		2CDBA95121C1A84200BB8559 /* GR-Sounds-Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GR-Sounds-Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDBA95421C1A84200BB8559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2CDBA95621C1A84200BB8559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CDBA95821C1A84200BB8559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CDBA95D21C1A84200BB8559 /* GR-Sounds-Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GR-Sounds-Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDBA96221C1A84200BB8559 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2CDBA96421C1A84200BB8559 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		2CDBA96621C1A84200BB8559 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		2CDBA96821C1A84300BB8559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CDBA96A21C1A84300BB8559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C1F59A421C1A7E400402B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1F59BB21C1A7E500402B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDBA95A21C1A84200BB8559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C1F599E21C1A7E400402B60 = {
+			isa = PBXGroup;
+			children = (
+				2C1F59A921C1A7E400402B60 /* GR-Sounds */,
+				2C1F59C121C1A7E500402B60 /* GR-SoundsTests */,
+				2CDBA95221C1A84200BB8559 /* GR-Sounds-Watch */,
+				2CDBA96121C1A84200BB8559 /* GR-Sounds-Watch Extension */,
+				2C1F59A821C1A7E400402B60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C1F59A821C1A7E400402B60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F59A721C1A7E400402B60 /* GR-Sounds.app */,
+				2C1F59BE21C1A7E500402B60 /* GR-SoundsTests.xctest */,
+				2CDBA95121C1A84200BB8559 /* GR-Sounds-Watch.app */,
+				2CDBA95D21C1A84200BB8559 /* GR-Sounds-Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C1F59A921C1A7E400402B60 /* GR-Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F59AA21C1A7E400402B60 /* AppDelegate.swift */,
+				2C1F59AC21C1A7E400402B60 /* ViewController.swift */,
+				2C1F59AE21C1A7E400402B60 /* Main.storyboard */,
+				2C1F59B421C1A7E400402B60 /* Assets.xcassets */,
+				2C1F59B621C1A7E400402B60 /* LaunchScreen.storyboard */,
+				2C1F59B921C1A7E500402B60 /* Info.plist */,
+				2C1F59B121C1A7E400402B60 /* GR_Sounds.xcdatamodeld */,
+			);
+			path = "GR-Sounds";
+			sourceTree = "<group>";
+		};
+		2C1F59C121C1A7E500402B60 /* GR-SoundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F59C221C1A7E500402B60 /* GR_SoundsTests.swift */,
+				2C1F59C421C1A7E500402B60 /* Info.plist */,
+			);
+			path = "GR-SoundsTests";
+			sourceTree = "<group>";
+		};
+		2CDBA95221C1A84200BB8559 /* GR-Sounds-Watch */ = {
+			isa = PBXGroup;
+			children = (
+				2CDBA95321C1A84200BB8559 /* Interface.storyboard */,
+				2CDBA95621C1A84200BB8559 /* Assets.xcassets */,
+				2CDBA95821C1A84200BB8559 /* Info.plist */,
+			);
+			path = "GR-Sounds-Watch";
+			sourceTree = "<group>";
+		};
+		2CDBA96121C1A84200BB8559 /* GR-Sounds-Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2CDBA96221C1A84200BB8559 /* InterfaceController.swift */,
+				2CDBA96421C1A84200BB8559 /* ExtensionDelegate.swift */,
+				2CDBA96621C1A84200BB8559 /* ComplicationController.swift */,
+				2CDBA96821C1A84300BB8559 /* Assets.xcassets */,
+				2CDBA96A21C1A84300BB8559 /* Info.plist */,
+				2CD0429D21C1B2D100DADBF2 /* GRSoundRowController.swift */,
+			);
+			path = "GR-Sounds-Watch Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C1F59A621C1A7E400402B60 /* GR-Sounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C1F59C721C1A7E500402B60 /* Build configuration list for PBXNativeTarget "GR-Sounds" */;
+			buildPhases = (
+				2C1F59A321C1A7E400402B60 /* Sources */,
+				2C1F59A421C1A7E400402B60 /* Frameworks */,
+				2C1F59A521C1A7E400402B60 /* Resources */,
+				2CDBA97521C1A84300BB8559 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CDBA96C21C1A84300BB8559 /* PBXTargetDependency */,
+			);
+			name = "GR-Sounds";
+			productName = "GR-Sounds";
+			productReference = 2C1F59A721C1A7E400402B60 /* GR-Sounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C1F59BD21C1A7E500402B60 /* GR-SoundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C1F59CA21C1A7E500402B60 /* Build configuration list for PBXNativeTarget "GR-SoundsTests" */;
+			buildPhases = (
+				2C1F59BA21C1A7E500402B60 /* Sources */,
+				2C1F59BB21C1A7E500402B60 /* Frameworks */,
+				2C1F59BC21C1A7E500402B60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C1F59C021C1A7E500402B60 /* PBXTargetDependency */,
+			);
+			name = "GR-SoundsTests";
+			productName = "GR-SoundsTests";
+			productReference = 2C1F59BE21C1A7E500402B60 /* GR-SoundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CDBA95021C1A84200BB8559 /* GR-Sounds-Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CDBA97421C1A84300BB8559 /* Build configuration list for PBXNativeTarget "GR-Sounds-Watch" */;
+			buildPhases = (
+				2CDBA94F21C1A84200BB8559 /* Resources */,
+				2CDBA97321C1A84300BB8559 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CDBA96021C1A84200BB8559 /* PBXTargetDependency */,
+			);
+			name = "GR-Sounds-Watch";
+			productName = "GR-Sounds-Watch";
+			productReference = 2CDBA95121C1A84200BB8559 /* GR-Sounds-Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2CDBA95C21C1A84200BB8559 /* GR-Sounds-Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CDBA97221C1A84300BB8559 /* Build configuration list for PBXNativeTarget "GR-Sounds-Watch Extension" */;
+			buildPhases = (
+				2CDBA95921C1A84200BB8559 /* Sources */,
+				2CDBA95A21C1A84200BB8559 /* Frameworks */,
+				2CDBA95B21C1A84200BB8559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GR-Sounds-Watch Extension";
+			productName = "GR-Sounds-Watch Extension";
+			productReference = 2CDBA95D21C1A84200BB8559 /* GR-Sounds-Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C1F599F21C1A7E400402B60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Marcus;
+				TargetAttributes = {
+					2C1F59A621C1A7E400402B60 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2C1F59BD21C1A7E500402B60 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2C1F59A621C1A7E400402B60;
+					};
+					2CDBA95021C1A84200BB8559 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2CDBA95C21C1A84200BB8559 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 2C1F59A221C1A7E400402B60 /* Build configuration list for PBXProject "GR-Sounds" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C1F599E21C1A7E400402B60;
+			productRefGroup = 2C1F59A821C1A7E400402B60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C1F59A621C1A7E400402B60 /* GR-Sounds */,
+				2C1F59BD21C1A7E500402B60 /* GR-SoundsTests */,
+				2CDBA95021C1A84200BB8559 /* GR-Sounds-Watch */,
+				2CDBA95C21C1A84200BB8559 /* GR-Sounds-Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C1F59A521C1A7E400402B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1F59B821C1A7E400402B60 /* LaunchScreen.storyboard in Resources */,
+				2C1F59B521C1A7E400402B60 /* Assets.xcassets in Resources */,
+				2C1F59B021C1A7E400402B60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1F59BC21C1A7E500402B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDBA94F21C1A84200BB8559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDBA95721C1A84200BB8559 /* Assets.xcassets in Resources */,
+				2CDBA95521C1A84200BB8559 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDBA95B21C1A84200BB8559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDBA96921C1A84300BB8559 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C1F59A321C1A7E400402B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1F59AD21C1A7E400402B60 /* ViewController.swift in Sources */,
+				2C1F59AB21C1A7E400402B60 /* AppDelegate.swift in Sources */,
+				2C1F59B321C1A7E400402B60 /* GR_Sounds.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1F59BA21C1A7E500402B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1F59C321C1A7E500402B60 /* GR_SoundsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDBA95921C1A84200BB8559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDBA96521C1A84200BB8559 /* ExtensionDelegate.swift in Sources */,
+				2CDBA96321C1A84200BB8559 /* InterfaceController.swift in Sources */,
+				2CDBA96721C1A84200BB8559 /* ComplicationController.swift in Sources */,
+				2CD0429E21C1B2D100DADBF2 /* GRSoundRowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C1F59C021C1A7E500402B60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C1F59A621C1A7E400402B60 /* GR-Sounds */;
+			targetProxy = 2C1F59BF21C1A7E500402B60 /* PBXContainerItemProxy */;
+		};
+		2CDBA96021C1A84200BB8559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CDBA95C21C1A84200BB8559 /* GR-Sounds-Watch Extension */;
+			targetProxy = 2CDBA95F21C1A84200BB8559 /* PBXContainerItemProxy */;
+		};
+		2CDBA96C21C1A84300BB8559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CDBA95021C1A84200BB8559 /* GR-Sounds-Watch */;
+			targetProxy = 2CDBA96B21C1A84300BB8559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C1F59AE21C1A7E400402B60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C1F59AF21C1A7E400402B60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C1F59B621C1A7E400402B60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C1F59B721C1A7E400402B60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2CDBA95321C1A84200BB8559 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CDBA95421C1A84200BB8559 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C1F59C521C1A7E500402B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C1F59C621C1A7E500402B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C1F59C821C1A7E500402B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X5H2JMEXK;
+				INFOPLIST_FILE = "GR-Sounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcusl.GR-Sounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C1F59C921C1A7E500402B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X5H2JMEXK;
+				INFOPLIST_FILE = "GR-Sounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcusl.GR-Sounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C1F59CB21C1A7E500402B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X5H2JMEXK;
+				INFOPLIST_FILE = "GR-SoundsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcusl.GR-SoundsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GR-Sounds.app/GR-Sounds";
+			};
+			name = Debug;
+		};
+		2C1F59CC21C1A7E500402B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X5H2JMEXK;
+				INFOPLIST_FILE = "GR-SoundsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcusl.GR-SoundsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GR-Sounds.app/GR-Sounds";
+			};
+			name = Release;
+		};
+		2CDBA96E21C1A84300BB8559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X5H2JMEXK;
+				IBSC_MODULE = GR_Sounds_Watch_Extension;
+				INFOPLIST_FILE = "GR-Sounds-Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcusl.GR-Sounds.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		2CDBA96F21C1A84300BB8559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X5H2JMEXK;
+				IBSC_MODULE = GR_Sounds_Watch_Extension;
+				INFOPLIST_FILE = "GR-Sounds-Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcusl.GR-Sounds.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		2CDBA97021C1A84300BB8559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X5H2JMEXK;
+				INFOPLIST_FILE = "GR-Sounds-Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcusl.GR-Sounds.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		2CDBA97121C1A84300BB8559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X5H2JMEXK;
+				INFOPLIST_FILE = "GR-Sounds-Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcusl.GR-Sounds.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C1F59A221C1A7E400402B60 /* Build configuration list for PBXProject "GR-Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1F59C521C1A7E500402B60 /* Debug */,
+				2C1F59C621C1A7E500402B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C1F59C721C1A7E500402B60 /* Build configuration list for PBXNativeTarget "GR-Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1F59C821C1A7E500402B60 /* Debug */,
+				2C1F59C921C1A7E500402B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C1F59CA21C1A7E500402B60 /* Build configuration list for PBXNativeTarget "GR-SoundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C1F59CB21C1A7E500402B60 /* Debug */,
+				2C1F59CC21C1A7E500402B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CDBA97221C1A84300BB8559 /* Build configuration list for PBXNativeTarget "GR-Sounds-Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDBA97021C1A84300BB8559 /* Debug */,
+				2CDBA97121C1A84300BB8559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CDBA97421C1A84300BB8559 /* Build configuration list for PBXNativeTarget "GR-Sounds-Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDBA96E21C1A84300BB8559 /* Debug */,
+				2CDBA96F21C1A84300BB8559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C1F59B121C1A7E400402B60 /* GR_Sounds.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C1F59B221C1A7E400402B60 /* GR_Sounds.xcdatamodel */,
+			);
+			currentVersion = 2C1F59B221C1A7E400402B60 /* GR_Sounds.xcdatamodel */;
+			path = GR_Sounds.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C1F599F21C1A7E400402B60 /* Project object */;
+}
