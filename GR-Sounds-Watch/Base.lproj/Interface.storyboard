@@ -27,8 +27,10 @@
                                 </tableRow>
                             </items>
                         </table>
+                        <inlineMovie width="1" height="100" alignment="left" id="2c9-4n-cH4"/>
                     </items>
                     <connections>
+                        <outlet property="audioPlay" destination="2c9-4n-cH4" id="D6T-i3-Dp1"/>
                         <outlet property="soundTable" destination="f5f-au-uro" id="I5V-7d-01q"/>
                     </connections>
                 </controller>

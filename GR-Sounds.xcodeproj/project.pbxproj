@@ -14,6 +14,10 @@
 		2C1F59B521C1A7E400402B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1F59B421C1A7E400402B60 /* Assets.xcassets */; };
 		2C1F59B821C1A7E400402B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1F59B621C1A7E400402B60 /* LaunchScreen.storyboard */; };
 		2C1F59C321C1A7E500402B60 /* GR_SoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F59C221C1A7E500402B60 /* GR_SoundsTests.swift */; };
+		2C5B5D5221C1B9BA00FDC3A8 /* Price is Sad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B5D4E21C1B9BA00FDC3A8 /* Price is Sad.mp3 */; };
+		2C5B5D5321C1B9BA00FDC3A8 /* John Cena.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B5D4F21C1B9BA00FDC3A8 /* John Cena.mp3 */; };
+		2C5B5D5421C1B9BA00FDC3A8 /* Suprise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B5D5021C1B9BA00FDC3A8 /* Suprise.mp3 */; };
+		2C5B5D5521C1B9BA00FDC3A8 /* Horn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B5D5121C1B9BA00FDC3A8 /* Horn.mp3 */; };
 		2CD0429E21C1B2D100DADBF2 /* GRSoundRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0429D21C1B2D100DADBF2 /* GRSoundRowController.swift */; };
 		2CDBA95521C1A84200BB8559 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDBA95321C1A84200BB8559 /* Interface.storyboard */; };
 		2CDBA95721C1A84200BB8559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDBA95621C1A84200BB8559 /* Assets.xcassets */; };
@@ -86,6 +90,10 @@
 		2C1F59BE21C1A7E500402B60 /* GR-SoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GR-SoundsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1F59C221C1A7E500402B60 /* GR_SoundsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GR_SoundsTests.swift; sourceTree = "<group>"; };
 		2C1F59C421C1A7E500402B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5B5D4E21C1B9BA00FDC3A8 /* Price is Sad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Price is Sad.mp3"; sourceTree = "<group>"; };
+		2C5B5D4F21C1B9BA00FDC3A8 /* John Cena.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "John Cena.mp3"; sourceTree = "<group>"; };
+		2C5B5D5021C1B9BA00FDC3A8 /* Suprise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Suprise.mp3; sourceTree = "<group>"; };
+		2C5B5D5121C1B9BA00FDC3A8 /* Horn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Horn.mp3; sourceTree = "<group>"; };
 		2CD0429D21C1B2D100DADBF2 /* GRSoundRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRSoundRowController.swift; sourceTree = "<group>"; };
 		2CDBA95121C1A84200BB8559 /* GR-Sounds-Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GR-Sounds-Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDBA95421C1A84200BB8559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -169,6 +177,17 @@
 			path = "GR-SoundsTests";
 			sourceTree = "<group>";
 		};
+		2C5B5D5621C1B9FE00FDC3A8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B5D5121C1B9BA00FDC3A8 /* Horn.mp3 */,
+				2C5B5D4F21C1B9BA00FDC3A8 /* John Cena.mp3 */,
+				2C5B5D4E21C1B9BA00FDC3A8 /* Price is Sad.mp3 */,
+				2C5B5D5021C1B9BA00FDC3A8 /* Suprise.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		2CDBA95221C1A84200BB8559 /* GR-Sounds-Watch */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +201,7 @@
 		2CDBA96121C1A84200BB8559 /* GR-Sounds-Watch Extension */ = {
 			isa = PBXGroup;
 			children = (
+				2C5B5D5621C1B9FE00FDC3A8 /* Sounds */,
 				2CDBA96221C1A84200BB8559 /* InterfaceController.swift */,
 				2CDBA96421C1A84200BB8559 /* ExtensionDelegate.swift */,
 				2CDBA96621C1A84200BB8559 /* ComplicationController.swift */,
@@ -343,7 +363,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5B5D5421C1B9BA00FDC3A8 /* Suprise.mp3 in Resources */,
 				2CDBA96921C1A84300BB8559 /* Assets.xcassets in Resources */,
+				2C5B5D5521C1B9BA00FDC3A8 /* Horn.mp3 in Resources */,
+				2C5B5D5221C1B9BA00FDC3A8 /* Price is Sad.mp3 in Resources */,
+				2C5B5D5321C1B9BA00FDC3A8 /* John Cena.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
