@@ -9,3 +9,14 @@ watch plays and resumes when app is re-opened
 cuts off beginning of sound
 
 ITS A BUG
+
+Dec 12th
+
+Migrated to auto generating the buttons
+
+have that working from a built array
+
+definitely better as I just need to populate the array
+
+want to switch that it traverses folder and finds the mp3 and generates the array for Migrated
+
